@@ -1,0 +1,1062 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+	"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://www.google.com/recaptcha/api.js?hl=ru" async="async" defer="defer"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/favicons/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/sites/default/files/favicons/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/sites/default/files/favicons/favicon-16x16.png"/>
+<link rel="manifest" href="/sites/default/files/favicons/site.webmanifest"/>
+<link rel="mask-icon" href="/sites/default/files/favicons/safari-pinned-tab.svg" color="#d55b5b"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="Разбираемся, что такое мемы и нужны ли смешные и не очень картинки в журналистике" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://jrnlst.ru/mems" />
+<meta property="og:site_name" content="Журнал «Журналист»" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrnlst.ru/mems" />
+<meta property="og:title" content="Мемасики подъехали: а что, если медиа не используют мемы, чтобы не стать слишком популярными?" />
+<meta property="og:image" content="https://jrnlst.ru/sites/default/files/styles/facebook/public/covers/cover_6.jpg?itok=SwSVOXfU" />
+<meta property="og:image:url" content="https://jrnlst.ru/sites/default/files/styles/facebook/public/covers/cover_6.jpg?itok=SwSVOXfU" />
+<meta property="og:image:secure_url" content="https://jrnlst.ru/sites/default/files/styles/facebook/public/covers/cover_6.jpg?itok=SwSVOXfU" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="article:published_time" content="2018-08-21T13:39:00+03:00" />
+<meta property="article:modified_time" content="2018-08-21T13:39:00+03:00" />
+	<meta name="yandex-verification" content="4f75df3c24f5c56e" />
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500italic,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<style type="text/css" media="all">
+@import url("https://jrnlst.ru/modules/system/system.base.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/system/system.menus.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/system/system.messages.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/system/system.theme.css?r6bvgg");
+</style>
+<style type="text/css" media="all">
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.menu.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.autocomplete.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.button.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.resizable.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.dialog.min.css?r6bvgg");
+</style>
+<style type="text/css" media="all">
+@import url("https://jrnlst.ru/modules/comment/comment.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/date/date_api/date.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/date/date_repeat_field/date_repeat_field.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/field/theme/field.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/node/node.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/search/search.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/search_krumo/search_krumo.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/user/user.css?r6bvgg");
+@import url("https://jrnlst.ru/modules/forum/forum.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/views/css/views.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/ckeditor/css/ckeditor.css?r6bvgg");
+</style>
+<style type="text/css" media="all">
+@import url("https://jrnlst.ru/sites/all/modules/colorbox/styles/default/colorbox_style.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/ctools/css/ctools.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/ctools/css/modal.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/modal_forms/css/modal_forms_popup.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/node_embed/plugins/node_embed/node_embed.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/search_autocomplete/css/themes/basic-blue.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/search_autocomplete/css/themes/basic-green.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/modules/webform/css/webform.css?r6bvgg");
+</style>
+<style type="text/css" media="all">
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/normalize.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/fonts/fonts.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/owl.carousel.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/owl.theme.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/bootstrap.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/bootstrap-theme.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/magnific-popup.min.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/slick.css?r6bvgg");
+@import url("https://jrnlst.ru/sites/all/themes/main_theme/css/s.css?r6bvgg");
+</style>
+		<title>Мемасики подъехали: а что, если медиа не используют мемы, чтобы не стать слишком популярными?</title>
+	<script>
+		// (function (d) {
+		// var config = {
+		// kitId: 'zdt4fld',
+		// scriptTimeout: 3000,
+		// async: true
+		// },
+		// h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		// })(document);
+	</script>
+    <script src="//p1.ntvk1.ru/nv.js" async="true"></script>
+    <script src="//pm.perfmelab.com/static/rb.js"></script>
+    <meta name="yandex-verification" content="80d15f2d654fd549" />
+    <meta name="mediator" content="" />
+    <script type="text/javascript" src="//code.giraff.io/data/widget-jrnlstru.js" async></script>
+
+    <script type="text/javascript">
+
+    (function (w, d, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.statmedia = new StatMedia({ 'id': 49491 });
+            } catch ( e ) {}
+        });
+        var p = d.createElement('script');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = 'https://stat.media/sm.js';
+        var s = d.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(p, s);
+    })(window, document, '__statmedia_callbacks');
+</script>
+
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-12562 node-type-articles user-role-anonymous-user" >
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.12';;
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="skip-link">
+		<a href="#main-content" class="element-invisible element-focusable">Перейти к основному содержанию</a>
+	</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(43320819, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43320819" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-91550489-2', 'auto');
+		  ga('send', 'pageview');
+	</script>
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-101683682-1', 'auto');
+		  ga('send', 'pageview');
+	</script>
+	<!-- <script id="js-mpf-mediator-init" data-counter="2820427" data-adaptive="true">!function(e){function t(t,n){if(!(n in e)){for(var r,a=e.document,i=a.scripts,o=i.length;o--;)if(-1!==i[o].src.indexOf(t)){r=i[o];break}if(!r){r=a.createElement("script"),r.type="text/javascript",r.async=!0,r.defer=!0,r.src=t,r.charset="UTF-8";;var d=function(){var e=a.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)};"[object Opera]"==e.opera?a.addEventListener?a.addEventListener("DOMContentLoaded",d,!1):e.attachEvent("onload",d):d()}}}t("//top-fwz1.mail.ru/js/code.js","_tmr"),t("//mediator.imgsmail.ru/2/mpf-mediator.min.js","_mediator")}(window);</script> -->
+		<div  class="page_top_wrapper">
+<div class="page_wrapper">
+	<div class="advertisement-top col-lg-12 col md12">
+			</div>
+	<header class="all-page col-lg-12">
+			<div class="navbar-logo">
+							         <a href="/" title="Главная" rel="home" id="logo" data-x="5" data-y="2" class="logo">
+			        <img src="/sites/all/themes/main_theme/logojournalist.png"/ >
+			      </a>
+			    			      <div class="region region-social">
+    <div id="block-block-5" class="block block-block">
+
+    
+  <div class="content">
+    <div class="social">
+<a href="https://www.facebook.com/journalistmag/" class="social facebook" target="_blank"></a>
+<a href="https://t.me/journal_smi" class="social telegram" target="_blank"></a>
+<a href="http://vkontakte.ru/club1824915" class="social vk" target="_blank"></a>
+<a href="https://www.instagram.com/jrnlstrus/" class="social ig" target="_blank"></a>
+<a href="https://ok.ru/group/56232466317491" class="social odnoklasniki"></a>
+</div>  </div>
+</div>
+  </div>
+			      <div class="region region-nav-bar">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <button class="search-icon" type="button" data-toggle="modal" data-target="#myModal"></button>
+                <a href="/cart" class="navbar-header-cart" rel="nofollow" title="Корзина">
+                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                    <span id="counter-in-cart" class="badge">-</span>
+                </a>
+                <a class="sign-in-club sign-in  " href="/club">Клуб</a>
+                <a class="sign-in" href="/user/login">Войти</a>
+                <a class="user-cabinet" href="/user/0/edit">Мой кабинет</a>
+                <a class="sign-out" href="/user/logout">Выйти</a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav"><li class="first leaf"><a href="/about">О журнале</a></li>
+<li class="leaf"><a href="/editors" title="">Редакция</a></li>
+<li class="leaf"><a href="/news" title="">Новости</a></li>
+<li class="leaf"><a href="/categories" title="">Рубрики</a></li>
+<li class="leaf"><a href="/club">Клуб</a></li>
+<li class="leaf"><a href="https://jrnlst.ru/shop" title="">Магазин</a></li>
+<li class="leaf"><a href="/content/proekty">Проекты</a></li>
+<li class="leaf"><a href="/archive" title="">Архив</a></li>
+<li class="last leaf"><a href="/contacts">Контакты</a></li>
+</ul>
+            </nav>  </div>
+</div>
+  </div>
+			    </div>
+			<div class="row">
+							</div>
+	</header>
+	<section class="content-all">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-md-offset-0 col-lg-offset-0 margin-content maincontent">
+																																											  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+<script type="text/javascript">
+  VK.init({apiId: 6356450, onlyWidgets: true});
+</script>
+
+<div class="node_article">
+  <div class="tags_else">
+    <div class="field field-name-field-categories field-type-taxonomy-term-reference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="/rubriki/keys" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Кейсы</a></div>
+      </div>
+</div>
+      </div>
+    <!--?php
+  if ($user->uid) {
+      print "<h1>" . $title . "</h1>";
+  } elseif (!$user->uid && !$content['field_club']) {
+      print "<h1>" . $title . "</h1>";
+  }
+  ?-->
+  <h1 class="page-header">Мемасики подъехали: а что, если медиа не используют мемы, чтобы не стать слишком популярными? </h1>
+  <div id="block-views-authors-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-authors view-id-authors view-display-id-block view-dom-id-79705c422c8a4008f1de791e77d3ba7d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/alena-boldyreva">Алёна Болдырева <span> </span></a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  <div class="tizer-article text">
+    <div id="block-views-tizerarticle-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-tizerarticle view-id-tizerarticle view-display-id-block view-dom-id-c055e1f80174a2c189460960ec31c6e5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-teaser-text-4-fee-article">        <div class="field-content"></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+  <div class="text ">
+    <div class="row tags_date">
+      <div class="col-md-6 tags"><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix">
+      <div class="field-label">Теги:&nbsp;</div>
+    <div class="field-items">
+          <div class="field-item even"><a href="/tegi/sovety" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">советы</a></div>
+          <div class="field-item odd"><a href="/tegi/instrukciya" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">инструкция</a></div>
+          <div class="field-item even"><a href="/tegi/smm" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">smm</a></div>
+      </div>
+</div>
+</div>
+      <div class="col-md-6 date"></div>
+    </div>
+    <div class="js-mediator-article">
+      <div class="field field-name-field-image-article field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/covers/cover_6.jpg" width="2048" height="1288" alt="" /></div>
+      </div>
+</div>
+      <div class="field field-name-field-anons field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>Разбираемся, что такое мемы и нужны ли смешные и не очень картинки в журналистике</p>
+</div>
+      </div>
+</div>
+      
+              
+<div class="paragraphs-items paragraphs-items-field-text-paragraphs paragraphs-items-field-text-paragraphs-full paragraphs-items-full">
+  <div class="field field-name-field-text-paragraphs field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>Мемы уже давно перестали быть просто смешными картинками в интернете. Их используют представители совершенно разных социальных и профессиональных классов, начиная со школьников и студентов, заканчивая политиками и маркетологами. Мемы даже пытаются анализировать с точки зрения серьезных наук вроде антропологии, лингвистики, психологии или социологии.</p>
+<p>Но самое главное: одна такая картинка может собрать ощутимо больше лайков и репостов в социальных сетях, чем текст. Даже если это очень качественный и интересный текст. Получается — вот он, быстрый путь к вожделенному вовлечению в соцсетях?</p>
+<p>Но давайте по порядку. Само слово «мем» означает любую единицу культурной информации, будь то идея, манера, образ действия или символ, передаваемую от человека к человеку в различных формах. Впервые в подобном значении термин был употреблен английским биологом Ричардом Докинзом в 1976 году. Он предположил, что вся культурная информация состоит из базовых единиц — мемов, как биологическая информация состоит из генов.</p>
+<p>Спустя 42 года мем несколько мутировал и приобрел ряд устойчивых признаков. Например, в современном понимании это картинка с надписью. Чаще всего смешная. Вроде бы все просто, но почему тогда журналисты не бегут их использовать?</p>
+<p> </p>
+<p><strong>ПОЧЕМУ ВАМ НЕОБХОДИМЫ МЕМЫ</strong></p>
+<p>Мем — это тип контента с высоким процентом конверсии. Если рассмотреть его в соотношении временных затрат и вовлечения пользователей, получается интересная пропорция: на создание самой картинки уходит не более 15 минут, в то время как количество лайков и репостов превышает аналогичные показатели других постов, на которые вы тратите намного больше времени.</p>
+<p>Иногда это даже обидно. Например, когда автор пишет качественный аналитический материал целые сутки и получает всего пару сотен прочтений со средним временем на странице не более 40 секунд. С другой стороны, значит, не докрутил, не так упаковал, не по тем каналам продвигал.</p>
+<p>Еще один аргумент в пользу мемов — это легкость их восприятия. Люди и в 2018 году читают лишь заголовки, бегут от лонгридов и все больше смотрят видео. Так вот, картинки — это идеальный механизм привлечения внимания, удобный как для производителя (можно сделать быстро), так и для потребителя (не надо сильно напрягаться). Если вы сможете нащупать культурные коды своего среднестатистического читателя и зашифровать в мем юмор с учетом этого знания, шанс на удачу резко возрастает. Проще говоря, найдите общий язык — придумывайте то, над чем вам захочется посмеяться вместе с читателем.</p>
+<p>Другое удобное свойство мема — его потенциал виральности. Идеально для этого подходят ситуативные мемы, связанные с актуальным информационным поводом. Они отражают или рефлексируют на тему события, которое уже всем известно, но в упрощенной форме, что способствует практически мгновенному считыванию и созданию юмористического эффекта. Актуальные мемы сочетают в себе важное и смешное, активизируют нужные нейроны мозга, отвечающие за разные эмоции. Конечно, мемы подойдут не всем медиа.</p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-img" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-paragraph/no-eto-ne-tochno-2.jpg" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13428-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-paragraph/no-eto-ne-tochno-2.jpg" width="2048" height="1153" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>Можно было бы предположить, что мемы — это не для серьезных изданий и вообще не для взрослых, но на самом деле это не так. Даже крупные гиганты вроде Entrepreneur или Forbes не гнушаются смешных картинок. Ведь смешной — не значит глупый.</p>
+<p>К тому же совсем скоро (если еще нет) вам придется иметь дело с тем самым поколением Z, которое родилось вместе с первыми интернет-мемами в 2000-х годах и использует их постоянно. Хотя практика показывает, что старшие поколения также вполне легко считывают «мемомизированную» информацию и с радостью ею делятся.</p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-txt-style-red-middle" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-style-red-middle field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">КАРТИНКИ — МЕХАНИЗМ ПРИВЛЕЧЕНИЯ ВНИМАНИЯ, УДОБНЫЙ КАК ДЛЯ ПРОИЗВОДИТЕЛЯ (МОЖНО СДЕЛАТЬ БЫСТРО), ТАК И ДЛЯ ПОТРЕБИТЕЛЯ (НЕ НАДО СИЛЬНО НАПРЯГАТЬСЯ) </div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>КАК СДЕЛАТЬ МЕМ?</strong></p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-left" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img-left field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-left-paragraph/1_28.png" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13413-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-left-paragraph/1_28.png" width="74" height="91" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>ОПРЕДЕЛИТЕ ИДЕЮ И ПРОАНАЛИЗИРУЙТЕ СВОЮ АУДИТОРИЮ </strong></p>
+<p>Например, есть категория мемов «для своих», то есть шутку, вероятнее всего, поймет лишь определенный круг лиц. В недавнем прошлом очень популярны были мемы вроде «филологической девы» (синего чулка, которая отличается недюжинным интеллектом, но полным отсутствием личной жизни), нацеленные на узкотематические сообщества. По такому же принципу мемы могут работать и для медиа: журнал о литературе — шутим о Достоевском, о науке и технике — про атомы, нейроны и Илона Маска.</p>
+<p>Как и статьи, мемы могут быть ситуативными или вечнозелеными. </p>
+<p> </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-left" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img-left field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-left-paragraph/2_28.png" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13415-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-left-paragraph/2_28.png" width="74" height="90" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>ЧТО ИЛЛЮСТРИРОВАТЬ БУДЕМ?</strong></p>
+<p>Мем может выступать как самостоятельная единица контента, а может — в качестве иллюстрации к информационному поводу, например, вместо автоматически подтянутой в сниппет поста картинки в соцсети.</p>
+<p>Вспомним знакомые многим сообщества «Лентач» (отданное в руки пользователей после распада редакции Лента.ру в 2014 году) и его собрата «Образовач»: пожалуй, это наилучшие примеры использования мемов в роли иллюстрации к новостным материалам в медиа.</p>
+<p>Созданием картинок в разных изданиях занимаются как отдельные люди — пикчеры, так и сотрудники редакции.</p>
+<p> </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-left" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img-left field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-left-paragraph/3_27.png" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13417-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-left-paragraph/3_27.png" width="74" height="90" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>НАЙДИТЕ КАРТИНКУ, ИЛИ ОНА НАЙДЕТ ВАС </strong></p>
+<p>Здесь действительно два варианта: либо вы уже знаете, как будет выглядеть ваш мем, и ищете в интернете подходящую картинку / оставляете техническое задание дизайнеру, либо вы бороздите просторы «ВКонтакте» в поисках той самой.</p>
+<p>В России большинство самых распространенных мемов приходит именно из VK. В качестве старта для поисков и вдохновения можно использовать сообщества вроде <a href="https://vk.com/pikabu" target="_blank">«Пикабу»</a>, <a href="https://vk.com/leprum" target="_blank">«Лепры»</a>, <a href="https://vk.com/souffrantmittelalter" target="_blank">«Страдающего средневековья»</a>, <a href="https://vk.com/vetsovet" target="_blank">«Это я»</a> и другие. Долгое нахождение на подобных страницах, бывает, наносит непоправимый ущерб глазам и мозгу, но за жемчужинами, знаете ли, поохотиться еще надо.</p>
+<p>И ведь просто найти мем мало — надо его домыслить или вдохновиться им. Авторское право в случае с мемами зыбко, но никто не любит видеть одни и те же мемы в разных местах.</p>
+<p> </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-left" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img-left field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-left-paragraph/4_25.png" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13419-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-left-paragraph/4_25.png" width="74" height="90" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>ОПРЕДЕЛИТЕ, КТО БУДЕТ ОТВЕЧАТЬ ЗА МЕМОПРОИЗВОДСТВО В РЕДАКЦИИ </strong></p>
+<p>Как показывает практика, коллективный разум в данном случае не работает. Если вы также не готовы нанимать отдельно человека (пикчера), выходом становится группа инициативных лиц — людей с хорошим чувством юмора, <br />
+заинтересованных в создании смешных картинок. Хорошо, если таких будет несколько, чтобы трезво оценивать пригодность юмора и степень релевантности. Можно также создать канал в рабочем мессенджере или чат, куда каждый сотрудник сможет кидать понравившиеся ему примеры мемов и делиться идеями.</p>
+<p> </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-left" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img-left field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-left-paragraph/5_22.png" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13421-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-left-paragraph/5_22.png" width="74" height="90" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><strong>ЕСЛИ ВЫ — ТОТ САМЫЙ ИНИЦИАТИВНЫЙ СОТРУДНИК</strong></p>
+<p>С технической точки зрения мемы проще всего создавать в фотошопе. Еще проще — в его онлайн-версии. Например, на сайте <a href="https://www.photopea.com" target="_blank">Photopea</a> есть минимальный набор инструментов и шрифтов для создания визуальных объектов и их редактирования. Наиболее подходящий для мемов шрифт — Archivo Black или любой похожий (белый с засечками и черным контуром).</p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-img" about="" typeof="">
+  <div class="content">
+    <div class="img-with-text field field-name-field-img field-type-image field-label-hidden clearfix">
+        <div class="field-items">
+                    <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/img-paragraph/memes_photopea.jpg" title="" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13423-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/img-paragraph/memes_photopea.jpg" width="2048" height="1048" alt="" title="" /></a></div>
+            <div class = "field-alt"></div>
+            </div>
+</div>
+
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>Для автоматизации процесса можно разработать шаблоны в формате psd для разных мемоцелей: шрифт поверх картинки, шрифт в белом прямоугольнике над картинкой и так далее.</p>
+<p> </p>
+<p><strong>КАК СДЕЛАТЬ ПОПУЛЯРНЫЙ МЕМ?</strong></p>
+<p>Если бы ответ на этот вопрос был очевиден, этой статьи бы не было. Можно изучить поведение целевой аудитории, угадать интересы и даже составить руководство к действию, но вот узнать наверняка, когда мем окажется вирусным, почти невозможно.</p>
+<p>Недавно в издании Russia Beyond мы начали экспериментировать с мемами. Пишем мы о России для иностранцев, поэтому шутки соответствующие — медведи, снег, водка, матрешки.</p>
+<p>Составляющих у поста, как правило, две — визуальная и текстовая. Хотя бы одна из них должна иметь отсылку к российским реалиям, вторая может быть универсальной.</p>
+<p>Иногда мы создаем картинку, всей редакции она кажется верхом гениальности, а у читателей отклика не вызывает никакого. Также наоборот: публикуем банальщину и получаем тысячи реакций и репостов.</p>
+<p>Единственное правило, которое мы смогли вывести за полгода работы с мемами, — они должны не просто попадать в точку между актуальным и смешным, но и отражать ценности вашего читателя.</p>
+<p> </p>
+<p><strong><span style="color:#D52F29;">НАПРИМЕР, САМЫМИ ПОПУЛЯРНЫМИ МЕМАМИ RUSSIA BEYOND ЗА ПОСЛЕДНЕЕ ВРЕМЯ СТАЛИ: </span></strong></p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>хаски, которая не может себе позволить поездку в Египет;</p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>бабушкин бункер на случай апокалипсиса;</p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>снег спрятал машины;</p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>после победы сборной России над сборной Египта в ЧМ-2018;</p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>хоба!</p>
+<p><strong><span style="color:#D52F29;">•   </span></strong>в параллельной вселенной: балерины </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-slider" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-imageslides field-type-image field-label-hidden clearfix">
+    <div class="field-items wrapper-slider">
+          <div class="slide-row">
+	      <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/1memes_haski.jpg" title="Хаски, которая не может себе позволить поездку в Египет " class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;Хаски, которая не может себе позволить поездку в Египет &quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/1memes_haski.jpg?itok=-ivdvG9L" width="1080" height="450" alt="Хаски, которая не может себе позволить поездку в Египет " title="" /></a></div>
+	      <div class = "field-alt">Хаски, которая не может себе позволить поездку в Египет </div>
+	  </div>
+          <div class="slide-row">
+	      <div class="field-item odd"><a href="https://jrnlst.ru/sites/default/files/2memes_bunker.jpg" title="Бабушкин бункер на случай апокалипсиса" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;Бабушкин бункер на случай апокалипсиса&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/2memes_bunker.jpg?itok=Us7EbexL" width="1080" height="450" alt="Бабушкин бункер на случай апокалипсиса" title="" /></a></div>
+	      <div class = "field-alt">Бабушкин бункер на случай апокалипсиса</div>
+	  </div>
+          <div class="slide-row">
+	      <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/3memes_snow.jpg" title="Снег спрятал машины " class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;Снег спрятал машины &quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/3memes_snow.jpg?itok=5Pg7Pcvw" width="1080" height="450" alt="Снег спрятал машины " title="" /></a></div>
+	      <div class = "field-alt">Снег спрятал машины </div>
+	  </div>
+          <div class="slide-row">
+	      <div class="field-item odd"><a href="https://jrnlst.ru/sites/default/files/4memes_egypt.jpg" title="После победы сборной России над сборной Египта в ЧМ‑2018" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;После победы сборной России над сборной Египта в ЧМ‑2018&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/4memes_egypt.jpg?itok=pFivRAyr" width="1080" height="450" alt="После победы сборной России над сборной Египта в ЧМ‑2018" title="" /></a></div>
+	      <div class = "field-alt">После победы сборной России над сборной Египта в ЧМ‑2018</div>
+	  </div>
+          <div class="slide-row">
+	      <div class="field-item even"><a href="https://jrnlst.ru/sites/default/files/5memes_hoba.jpg" title="После победы сборной России над сборной Египта в ЧМ‑2018" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;После победы сборной России над сборной Египта в ЧМ‑2018&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/5memes_hoba.jpg?itok=Gcku7_bU" width="1080" height="450" alt="После победы сборной России над сборной Египта в ЧМ‑2018" title="" /></a></div>
+	      <div class = "field-alt">После победы сборной России над сборной Египта в ЧМ‑2018</div>
+	  </div>
+          <div class="slide-row">
+	      <div class="field-item odd"><a href="https://jrnlst.ru/sites/default/files/6memes_ballerinas.jpg" title="В параллельной вселенной: балерины смотрят футбол, а футболисты — балет" class="colorbox" data-colorbox-gallery="gallery-paragraphs_item-13425-SlSETSodP9Y" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;В параллельной вселенной: балерины смотрят футбол, а футболисты — балет&quot;}"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/sliderarticle/public/6memes_ballerinas.jpg?itok=Bk7Wb2Gh" width="1080" height="450" alt="В параллельной вселенной: балерины смотрят футбол, а футболисты — балет" title="" /></a></div>
+	      <div class = "field-alt">В параллельной вселенной: балерины смотрят футбол, а футболисты — балет</div>
+	  </div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-txt-no-style" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-full-html field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>В случае с мемами футбольной тематики популярность объясняется актуальностью — прошедший чемпионат мира привлек даже самых равнодушных, вся планета говорила на одном языке.</p>
+<p>В остальных же случаях действует принцип «это я»: пользователи видят в картинках отражение себя или своих близких, контекст им хорошо знаком и, более того, вызывает эмоции.</p>
+<p>Однако все это остается на уровне теорий, до правил в области мемов нам еще далеко. </p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-txt-style-small-thin" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-txt-style-small-thin field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Иллюстрация: kanobu.ru; dmitriip </div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+      
+
+      <!--
+             <ul>
+
+                 <li>
+                     приобрести <a href="/poluchit-dostup-k-chteniyu-cifrovogo-vypuska-i-materialam-kluba-zhurnalista-na-odin-mesyac">цифровой номер</a>
+                 </li>
+                 <li>
+                     оформить <a href="/ya-hochu-lgotnuyu-podpisku-na-cifrovoy-zhurnal-i-byt-v-klube">цифровую подписку на полгода..</a>
+                 </li>
+                 <li >
+                     оформить членство <a href="https://jrnlst.ru/podpisatsya-i-vstupit-v-klub-zhurnalista">в Клубе Журналиста</a>.
+                 </li>
+                 <li>
+                     оформить редакционную подписку на <a href="/content/redakcionnaya-adresnaya-podpiska">полгода</a> или <a href="/lgotnaya-podpiska-na-zhurnal-na-1-god">год</a>
+                 </li>
+             </ul>-->
+
+    </div>
+    <div class="social-likes">
+      <div id="vk_like"></div>
+      <script type="text/javascript">
+        VK.Widgets.Like("vk_like", {type: "button", height: 30});
+      </script>
+
+      <div class="fb-like" data-href="/mems" data-layout="button_count" data-action="like"
+           data-size="small" data-show-faces="true" data-share="false"></div>
+    </div>
+
+
+    <a class="colorbox-inline weberrors" href="?width=400&amp;height=370&amp;inline=true#myid">Сообщить об ошибке</a>
+
+
+    <div class="node_footer row">
+      <div class="back_btn col-md-4 col-sm-4">
+        <a class="back-click"
+				     href="https://www.google.com/">Вернуться назад</a>      </div>
+      <div class="date_number col-md-3 col-sm-3">№<div class="field field-name-field-namber-article field-type-number-integer field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">8</div>
+      </div>
+</div>
+        <span>от</span> <div class="field field-name-field-date-article field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-21T00:00:00+03:00">21 августа 2018</span></div>
+      </div>
+</div>
+</div>
+      <div class="share col-md-5 col-sm-5">
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="float:right;">
+          <a class="a2a_button_vk"></a>
+          <a class="a2a_button_odnoklassniki"></a>
+          <a class="a2a_button_facebook"></a>
+          <a class="a2a_button_google_plus"></a>
+          <a class="a2a_button_telegram"></a>
+          <a class="a2a_button_viber"></a>
+          <a class="a2a_button_whatsapp"></a>
+          <a class="a2a_button_pocket"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+      </div>
+    </div>
+    <br/>
+    <div class="row subscribe-btns">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <a class="podpiska-right" href="/shop">Подписаться на журнал</a>
+      </div>
+      <div class="col-md-5">
+        <a class="podpiska-right" href="/podpisatsya-na-rassylku">Подписаться на рассылку</a>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="node_linked_articles">
+          </div>
+    <div class="date_article">Авг 21, 2018</div>
+  </div>
+
+</div>
+
+<script type="javascript">
+  <br/>
+  !function (e) {
+    function t(t, n) {
+      if (!(n in e)) {
+        for (var r, a = e.document, i = a.scripts, o = i.length; o--;) if (-1 !== i[o].src.indexOf(t)) {
+          r = i[o];
+          break
+        }
+        if (!r) {
+          r = a.createElement("script"), r.type = "text/javascript", r.async = !0, r.defer = !0, r.src = t, r.charset = "UTF-8";
+          var d = function () {
+            var e = a.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(r, e)
+          };
+          "[object Opera]" == e.opera ? a.addEventListener ? a.addEventListener("DOMContentLoaded", d, !1) : e.attachEvent("onload", d) : d()
+        }
+      }
+    }
+
+    t("//mediator.mail.ru/script/2820427/", "_mediator")
+  }(window);
+  <br/>
+</script>
+
+
+
+
+
+  </div>
+</div>
+  </div>
+					</div>
+					<div class="right-bar col-lg-12">
+						  <div class="region region-right-bar">
+    <div id="block-views-right-bar-block" class="block block-views container">
+
+    
+  <div class="content">
+    <div class="view view-right-bar view-id-right_bar view-display-id-block flex-square-teasers view-dom-id-df25799c93e29188298d8275722140e3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 flex-teaser-square">
+      
+          <div class="picture-block views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-field-image-article"><div class="field-content"><a href="/feklistov"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/top-all/public/covers/feklistov03_22.jpg?itok=zt5eZfS1" width="395" height="180" alt="" /></a></div></div>                <div class="views-field views-field-field-categories"><h3 class="field-content categories-name"><a href="/rubriki/stories" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Истории</a></h3></div>      </div>
+
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/feklistov">Записки журналиста: Борис Ельцин</a></span>  </div>  
+  <div class="wrap views-field-field-anons">        Продолжаем публиковать истории журналистов  </div>  </div>
+  <div class="views-row views-row-2 flex-teaser-square">
+      
+          <div class="picture-block views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-field-image-article"><div class="field-content"><a href="/tuapsvesti"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/top-all/public/covers/media_razbor_tuapsinskie_vesti_9.jpg?itok=5eMpdOvc" width="395" height="180" alt="" /></a></div></div>                <div class="views-field views-field-field-categories"><h3 class="field-content categories-name"><a href="/rubriki/education" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Медиа</a></h3></div>      </div>
+
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tuapsvesti">В гостях у «Туапсинских вестей»: на что сегодня клюет</a></span>  </div>  
+  <div class="wrap views-field-field-anons">        Представляем новый формат — «в гостях у медиа»
+  </div>  </div>
+  <div class="views-row views-row-3 flex-teaser-square">
+      
+          <div class="picture-block views-fieldset" data-module="views_fieldsets">
+            <div class="views-field views-field-field-image-article"><div class="field-content"><a href="/efficiency-illustration"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/top-all/public/covers/shutterstock_170194253.jpg?itok=V96w0riM" width="395" height="180" alt="" /></a></div></div>                <div class="views-field views-field-field-categories"><h3 class="field-content categories-name"><a href="/rubriki/design" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Дизайн</a></h3></div>                <div class="views-field views-field-field-club"><div class="field-content"><a class="is-club" href="/club">Клуб</a></div></div>      </div>
+
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/efficiency-illustration">Школа дизайна: как повысить эффективность иллюстраций</a></span>  </div>  
+  <div class="wrap views-field-field-anons">        Голова в режиме «ВКЛ.» по умолчанию
+  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-27" class="block block-block yandex-advertisement">
+
+    <h2>Вам будет интересно:</h2>
+  
+  <div class="content">
+    <!-- Yandex.RTB R-A-346644-1 -->
+<div id="yandex_rtb_R-A-346644-1"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-346644-1",
+                renderTo: "yandex_rtb_R-A-346644-1",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>  </div>
+</div>
+  </div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="advertisement-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+									</div>
+			</div>
+		</div>
+	</section>
+</div>
+</div> 
+<footer>
+	<div class="container">
+		<div class="btn_to_top">
+			<a href="#" class="up"><span class="ion-arrow-up-b"></span> Наверх</a>
+	    </div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 footer-wrap">
+				<div class="logo-foot"></div>
+				<div class="reit"></div>
+				<div class="social">
+					<a href="https://www.facebook.com/journalistmag/"  target="_blank" class="social facebook"></a>
+					<!-- <a href="https://twitter.com/journal_j" class="social twitter"></a> -->
+					<a href="https://t.me/journal_smi" class="social telegram" target="_blank"></a>
+					<a href="http://vkontakte.ru/club1824915" target="_blank" class="social vk"></a>
+					<a href="https://www.instagram.com/jrnlstrus/" class="social ig"></a>
+					<a href="https://ok.ru/group/56232466317491" class="social odnoklasniki"></a>
+					
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 footer-nav">
+				<div>
+					<p>© 1914–2022, сайт журнала «Журналист». <br>
+				Учредитель и издатель ООО "Медиагруппа "Журналист". Генеральный директор и главный редактор Петрова Любовь Владимировна. Зарегистрирован Федеральный службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) Эл № ФС77-66598 от 21 июля 2016 года.
+				<!-- <a href="/privacy-policy" style="color:#fff">Политика конфиденциальности</a> -->
+				<br />
+				Адрес: 125190, г. Москва, ул. Черняховского 16<br />
+				Email: <a href="mailto:info@jrnlst.ru">info@jrnlst.ru </a><br />
+				Телефон: <a href="tel:+74991521907">+7  (499) 152-19-07</a>
+				</p>
+				  <div class="region region-partners2">
+    <div id="block-bean-partnery" class="block block-bean">
+
+    
+  <div class="content">
+    <div class="entity entity-bean bean-partners clearfix" about="/block/partnery" typeof="">
+        <h2>Партнеры</h2>
+      <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-partner paragraphs-items-field-partner-full paragraphs-items-full">
+  <div class="field field-name-field-partner field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-partner" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-img-partner field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://jrnlst.ru/sites/default/files/styles/thumbnail/public/partner/logo_1.png?itok=dZNOyuKz" width="100" height="92" alt="" /></div>
+      </div>
+</div>
+<div class="field field-name-field-link-partner field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://www.wuor.ru/" target="_blank">http://www.wuor.ru/</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+                    <div style="color: white;">Сайт функционирует при содействии Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации</div>
+				</div>
+				<ul class="nav-foot">
+					<li><a href="/about">о журнале</a></li>
+					<!-- <li><a href="http://new.journalist-virt.ru/reklama">реклама</a></li> -->
+					<li><a href="/reklama">реклама</a></li>
+
+					<li><a href="/terms-of-use ">пользовательское соглашение</a></li>
+					<!-- <li><a href="http://journalist-virt.ru/media/">партнерам</a></li> -->
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer><!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <!-- <div class="modal-content"> -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div style="display: none;"><div id="myid">
+              
+                <div class="region region-webform">
+    <div id="block-webform-client-block-11421" class="block block-webform">
+
+    <h2>Ошибка на сайте</h2>
+  
+  <div class="content">
+    <form class="webform-client-form webform-client-form-11421" action="/mems" method="post" id="webform-client-form-11421" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textarea webform-component--opisanie-oshibki">
+  <label for="edit-submitted-opisanie-oshibki">Описание ошибки <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea required="required" placeholder="Введите текст" id="edit-submitted-opisanie-oshibki" name="submitted[opisanie_oshibki]" cols="60" rows="10" class="form-textarea required"></textarea></div>
+ <div class="description">Если Вы нашли ошибку на сайте, пожалуйста, сообщите нам о ней.</div>
+</div>
+<div  class="form-item webform-component webform-component-hidden webform-component--adres-stranicy" style="display: none">
+ <input type="hidden" name="submitted[adres_stranicy]" value="https://jrnlst.ru/mems" />
+
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-6zDoKqnnfoTgldzIUb4-WOf1SKXcDOrDG8DLKpyf1kQ" />
+<input type="hidden" name="form_id" value="webform_client_form_11421" />
+<div class="captcha"><input type="hidden" name="captcha_sid" value="61614578" />
+<input type="hidden" name="captcha_token" value="78b6bc0df68b89e9ab972a5934dc0fb8" />
+<input type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6LdVgSQUAAAAAKS8MfbwEkbvkzDq_XVtlw-Z0i_C" data-theme="light" data-type="image"></div><input type="hidden" name="captcha_cacheable" value="1" />
+</div><div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Отправить" /></div></div></form>  </div>
+</div>
+  </div>
+          </div></div>
+
+      <div class="modal-body">
+          <div class="region region-modal">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/mems" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Форма поиска</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">  </label>
+ <input title="Введите ключевые слова для поиска." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Поиск&#039;;}" onfocus="if (this.value == &#039;Поиск&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="Поиск" size="24" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/sites/all/themes/main_theme/images/search.png" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-qqQ-L5-eBJXPkcnBSJCeOVhimS5ElIoUfnkjd3C10us" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+      </div>
+    <!-- </div> -->
+  </div>
+</div>
+
+  <div class="region region-modals">
+    <div id="block-user-login" class="mfp-hide popup block block-user">
+      <div class="modal__title">Войти в клуб</div>
+    <form action="/mems?destination=node/12562" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-ulogin-widget">
+ <div id="ulogin"x-ulogin-params="display=panel&fields=first_name,last_name,email,nickname,bdate,photo,country,city,phone&optional=&providers=vkontakte,odnoklassniki,mailru,facebook,google&hidden=&redirect_uri=https%3A%2F%2Fjrnlst.ru%2Fulogin%3Fdestination%3Dnode%2F12562"></div>
+</div>
+<div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">E-mail или логин <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Пароль <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Регистрация">Регистрация</a></li>
+<li class="last"><a href="/user/password" title="Запросить новый пароль по электронной почте.">Забыли пароль?</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-XesmNCl8UIEat6EADOKd8fDgUAw-T_05tz2RNPeLy1A" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="captcha"><input type="hidden" name="captcha_sid" value="61614579" />
+<input type="hidden" name="captcha_token" value="09af9028313704ba962042a7354e9f60" />
+<input type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6LdVgSQUAAAAAKS8MfbwEkbvkzDq_XVtlw-Z0i_C" data-theme="light" data-type="image"></div><input type="hidden" name="captcha_cacheable" value="1" />
+</div><div class="form-actions form-wrapper" id="edit-actions--3"><input type="submit" id="edit-submit--3" name="op" value="Войти" class="form-submit" /></div></div></form></div>
+  </div>
+		<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/drupal.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.position.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.menu.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.autocomplete.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.button.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.mouse.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.draggable.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.resizable.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.dialog.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/form.js?v=7.74"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/ajax.js?v=7.74"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/admin_menu/admin_devel/admin_devel.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/default/files/languages/ru_M5joi-xCbhXzeQ42xvu_rVsYtYmMImZ8DCb3yjUm15Q.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/libraries/colorbox/jquery.colorbox-min.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/colorbox/js/colorbox.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/colorbox/styles/default/colorbox_style.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/colorbox/js/colorbox_load.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/colorbox/js/colorbox_inline.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/progress.js?v=7.74"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/ctools/js/modal.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/modal_forms/js/modal_forms_popup.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/views_load_more/views_load_more.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/views_show_more/views_show_more.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/views/js/base.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/views/js/ajax_view.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/captcha/captcha.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/search_autocomplete/js/jquery.autocomplete.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/autodialog/autodialog.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/collapse.js?v=7.74"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/custom/mw_commerce_ajax_cart/js/mw_commerce_ajax_page.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/misc/textarea.js?v=7.74"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/webform/js/webform.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/modules/ulogin/js/ulogin.async.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/owl.carousel.min.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/marqui.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/bootstrap.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/jquery.maskedinput.min.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/main.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/es5-shims.min.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/share.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/jquery.magnific-popup.min.js?r6bvgg"></script>
+<script type="text/javascript" src="https://jrnlst.ru/sites/all/themes/main_theme/js/slick.min.js?r6bvgg"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"main_theme","theme_token":"LZO5_TRbZ30zr8F1E6KlZdrxqfewWuztBVCdTVHNAyE","jquery_version":"1.10","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.menu.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.autocomplete.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"public:\/\/languages\/ru_M5joi-xCbhXzeQ42xvu_rVsYtYmMImZ8DCb3yjUm15Q.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"misc\/progress.js":1,"sites\/all\/modules\/ctools\/js\/modal.js":1,"sites\/all\/modules\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/views_show_more\/views_show_more.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/captcha\/captcha.js":1,"sites\/all\/modules\/search_autocomplete\/js\/jquery.autocomplete.js":1,"sites\/all\/modules\/autodialog\/autodialog.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/custom\/mw_commerce_ajax_cart\/js\/mw_commerce_ajax_page.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/modules\/ulogin\/js\/ulogin.async.js":1,"sites\/all\/themes\/main_theme\/js\/owl.carousel.min.js":1,"sites\/all\/themes\/main_theme\/js\/marqui.js":1,"sites\/all\/themes\/main_theme\/js\/bootstrap.js":1,"sites\/all\/themes\/main_theme\/js\/jquery.maskedinput.min.js":1,"sites\/all\/themes\/main_theme\/js\/main.js":1,"sites\/all\/themes\/main_theme\/js\/es5-shims.min.js":1,"sites\/all\/themes\/main_theme\/js\/share.js":1,"sites\/all\/themes\/main_theme\/js\/jquery.magnific-popup.min.js":1,"sites\/all\/themes\/main_theme\/js\/slick.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/search_krumo\/search_krumo.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ctools\/css\/modal.css":1,"sites\/all\/modules\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/modules\/search_autocomplete\/css\/themes\/basic-blue.css":1,"sites\/all\/modules\/search_autocomplete\/css\/themes\/basic-green.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/main_theme\/css\/normalize.css":1,"sites\/all\/themes\/main_theme\/fonts\/fonts.css":1,"sites\/all\/themes\/main_theme\/css\/owl.carousel.css":1,"sites\/all\/themes\/main_theme\/css\/owl.theme.css":1,"sites\/all\/themes\/main_theme\/css\/bootstrap.css":1,"sites\/all\/themes\/main_theme\/css\/bootstrap-theme.css":1,"sites\/all\/themes\/main_theme\/css\/magnific-popup.min.css":1,"sites\/all\/themes\/main_theme\/css\/slick.css":1,"sites\/all\/themes\/main_theme\/css\/s.css":1}},"colorbox":{"opacity":"0.85","current":"{current} \u0438\u0437 {total}","previous":"\u00ab \u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439","next":"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u00bb","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"CToolsModal":{"loadingText":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/jrnlst.ru\/sites\/all\/modules\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e\u0022 title=\u0022\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/jrnlst.ru\/sites\/all\/modules\/ctools\/images\/throbber.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/jrnlst.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":550,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/jrnlst.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/jrnlst.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:4e2dc5737d4a0929e2081544c92289ae":{"view_name":"articles_latest_on_front","view_display_id":"block","view_args":"","view_path":"node\/12562","view_base_path":null,"view_dom_id":"4e2dc5737d4a0929e2081544c92289ae","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/mems":true,"\/mems?destination=node\/12562":true},"search_autocomplete":{"form1":{"selector":"#search-form[action=\u0022\/search\/node\u0022] #edit-keys","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/jrnlst.ru\/search_autocomplete\/autocomplete\/1\/","fid":"1","theme":"basic-blue","auto_submit":"1","auto_redirect":"1"},"form3":{"selector":"#edit-search-block-form--2","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/jrnlst.ru\/search_autocomplete\/autocomplete\/3\/","fid":"3","theme":"basic-green","auto_submit":"1","auto_redirect":"1"}},"ulogin":["ulogin"]});
+//--><!]]>
+</script>
+
+<div class="shadow"></div>
+
+    
+
+
+</body>
+</html>
