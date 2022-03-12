@@ -70,8 +70,8 @@ if(!isset($_SESSION['user_email'])){
             $run_user = mysqli_query($con, $get_user);
             $row_user = mysqli_fetch_array($run_user);
 
-            $user_to_msg = $row_user['user_id'];
-            $user_to_name = $row_user['user_name'];
+            $user_to_msg = $row_user['user_id'] ?? null;
+            $user_to_name = $row_user['user_name'] ?? null;
 
 
         }
@@ -176,15 +176,15 @@ if(!isset($_SESSION['user_email'])){
                 $run_user = mysqli_query($con, $get_user);
                 $row = mysqli_fetch_array($run_user);
 
-                $user_id = $row['user_id'];
-                $user_image = $row['user_image'];
-                $user_name = $row['user_name'];
-                $f_name = $row['f_name'];
-                $l_name = $row['l_name'];
-                $describe_user = $row['describe_user'];
-                $country = $row['user_country'];
-                $gender = $row['user_gender'];
-                $register_date = $row['user_reg_date'];
+                $user_id = $row['user_id'] ?? null;
+                $user_image = $row['user_image'] ?? null;
+                $user_name = $row['user_name'] ?? null;
+                $f_name = $row['f_name'] ?? null;
+                $l_name = $row['l_name'] ?? null;
+                $describe_user = $row['describe_user'] ?? null;
+                $country = $row['user_country'] ?? null;
+                $gender = $row['user_gender'] ?? null;
+                $register_date = $row['user_reg_date'] ?? null;
             }
             if($get_id =="new"){
 
